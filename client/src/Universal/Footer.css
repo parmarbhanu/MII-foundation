@@ -1,0 +1,111 @@
+.footer-box{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px 30px 30px 40px;
+}
+.footer-top {
+    font-size: 65px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-top h2{
+    margin: 20px;
+}
+
+.footer-top a{
+    color: #008a6e;
+    display: inline-block;
+    font-weight: 400;
+    padding: 0 0 5px;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer-top a:hover{
+    color: blue ;
+}
+
+.footer-top a::before{
+    content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: currentColor;
+  /* -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04);
+  transition: -webkit-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04);
+  -o-transition: -o-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04);
+  -moz-transition: transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04),
+    -moz-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04);
+  transition: transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04);
+  transition: transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04),
+    -webkit-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04),
+    -moz-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04),
+    -o-transform 0.4s cubic-bezier(0.4, 0.22, 0.21, 1.04); */
+
+}
+
+.footer-mid-l1,.footer-mid-l2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+}
+.footer-mid-l1 a,.footer-mid-l2 i{
+    color: white;
+    padding-left: 50px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.footer-mid-l1 a :hover{
+    color: blue;
+    /* cursor: pointer; */
+}
+
+.social-icons{
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} 
+
+.footer-mid-l2-socia{
+    align-items: center;
+    background: #fefefe;
+    border-radius: 50%;
+    color: #0f0f0f;
+    display: inline-flex;
+    height: 22px;
+    justify-content: center;
+    margin: 0 15px 0 0;
+    text-align: center;
+    transition: opacity .3s;
+    width: 22px;
+}
+
+.social-icons i{
+    padding-left: 50px;
+    border-radius: 25px;
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+
+.fa-instagram-square:before, .fa-square-instagram:before {
+    content: "\e055";
+}
+
+.footer-bottom{
+    text-align: center;
+    color: #fefefe;
+}
