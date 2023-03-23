@@ -28,7 +28,7 @@
 
   @media (min-width: 700px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1550px;
+    /* max-width: 1550px; */
 }}
 .c{
     color: white;
