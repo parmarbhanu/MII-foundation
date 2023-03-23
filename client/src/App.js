@@ -1,14 +1,17 @@
-import React from 'react';
-import LandingPage from './Pages/Home/LandingPage'
+import logo from './logo.svg';
+import './App.css';
 import Footer from './Universal/Footer';
-// import './App.css';
-
+import Header from './Universal/Header';
+import Herosection from './Pages/Home/Herosection/Herosection';
+import LandingPage from './Pages/Home/LandingPage';
 function App() {
   return (
-    <>
-    <LandingPage/>
-    <Footer/>
-    </>
+    <div className="App">
+      {/* <Header/> */}
+      <Herosection/>
+      <LandingPage/>
+      <Footer/>
+    </div>
   );
 }
 
