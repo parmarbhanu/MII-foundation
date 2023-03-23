@@ -1,6 +1,17 @@
+body {
+  background: rgb(228, 226, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 226, 226, 1) 0%,
+    rgba(159, 159, 159, 1) 47%,
+    rgba(143, 135, 135, 1) 100%
+  );
+}
+
 /* .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
