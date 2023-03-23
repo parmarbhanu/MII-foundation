@@ -9,6 +9,17 @@
     margin-bottom: 50px;
 }
 
+@media screen and (min-width: 851px) {
+   .footer-top {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .footer-top{
+      font-size: 30px;
+    }
+  }
 .footer-top h2{
     margin: 20px;
 }

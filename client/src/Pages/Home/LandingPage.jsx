@@ -3,6 +3,48 @@ import "./LandingPage.css";
 export default function LandingPage() {
   return (
     <>
+
+<div className="text_section">
+  <div className="first_section">
+    <div className="photo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0E6mzoxjcudpFvjdafTIpbbhqzKpsxbP2w&usqp=CAU"
+            alt="Mobirise"/>
+    </div> 
+    <div className="text_area">
+          <h1>heading</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+            alias fugiat dolorem magni hic expedita accusamus quos obcaecati
+            enim eos sapiente laudantium officia, minima quasi voluptas animi,
+            nulla placeat beatae.
+          </p>
+    </div>
+  </div>
+  <div className="second_section">
+  <div className="text_area_second">
+          <h1>heading</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+            alias fugiat dolorem magni hic expedita accusamus quos obcaecati
+            enim eos sapiente laudantium officia, minima quasi voluptas animi,
+            nulla placeat beatae.
+          </p>
+    </div>
+    <div className="photo_second">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0E6mzoxjcudpFvjdafTIpbbhqzKpsxbP2w&usqp=CAU"
+            alt="Mobirise"/>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+{/*     
       <div className="h1 bottel">
         <div className="image-wrap">
           <img
@@ -39,7 +81,10 @@ export default function LandingPage() {
             nulla placeat beatae.
           </p>
         </div>
-      </div>
+      </div> */}
+    
+    
+    
     </>
 
     // {/* <div>

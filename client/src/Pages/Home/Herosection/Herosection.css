@@ -1,0 +1,35 @@
+
+/* .herosection{
+    height: 650px;
+} */
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    /* height: 650px; */
+  }
+  .left_container{
+    /* background-color: aqua; */
+    padding: 50px;
+    flex: 50%;
+    text-align: left;
+  }
+  .right_container{
+    /* background-color: beige; */
+    padding: 50px;
+    flex: 50%;
+  }
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+     
+    }
+  }
+
+  @media (min-width: 700px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1550px;
+}}
+.c{
+    color: white;
+}
