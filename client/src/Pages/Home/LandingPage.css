@@ -20,7 +20,7 @@ display: flex;
   }
   @media (min-width: 700px){
     .first_section, .first_section-lg, .first_section-md, .first_section-sm, .first_section-xl {
-        /* max-width: 1500px; */
+         max-width: max-content;
     }}
 
 
@@ -48,7 +48,7 @@ display: flex;
   }
   @media (min-width: 700px){
     .second_section, .second_section-lg, .second_section-md, .second_section-sm, .second_section-xl {
-        /* max-width: 1550px; */
+         max-width: max-content;
     }}
 
 
