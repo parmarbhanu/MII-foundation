@@ -5,7 +5,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    background-color: rgb(61, 66, 65);
+   
     /* height: 650px; */
   }
   .left_container{
@@ -13,11 +13,13 @@
     padding: 50px;
     flex: 50%;
     text-align: left;
+    max-width: 60%;
   }
   .right_container{
     /* background-color: beige; */
     padding: 50px;
     flex: 50%;
+    max-width: 60%;
   }
   @media (max-width: 800px) {
     .container {
@@ -28,7 +30,7 @@
 
   @media (min-width: 700px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-    /* max-width: 1550px; */
+     max-width: max-content;
 }}
 .c{
     color: white;
