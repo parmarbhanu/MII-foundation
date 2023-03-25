@@ -13,11 +13,13 @@
     padding: 50px;
     flex: 50%;
     text-align: left;
+    max-width: 60%;
   }
   .right_container{
     /* background-color: beige; */
     padding: 50px;
     flex: 50%;
+    max-width: 60%;
   }
   @media (max-width: 800px) {
     .container {

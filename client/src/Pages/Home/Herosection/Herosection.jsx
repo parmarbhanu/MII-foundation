@@ -7,8 +7,8 @@ function Herosection() {
         <div className="container">
           <div className="left_container">
             <div className="text" style={{ fontSize: "50px" }}>
-              Innovative future{" "}
-              <div style={{ color: "white", fontSize: "50px" }}> rock-solid </div>{" "}
+              Innovative future
+              <div style={{ color: "white", fontSize: "50px" }}> rock-solid </div>
               surfaces with our selection
             </div>
             <p>

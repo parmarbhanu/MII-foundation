@@ -20,13 +20,13 @@ export default function Footer() {
           </div>
           <div className="footer-mid-l2 social-icons">
             <a className="footer-mid-l2-social" href="/aboutus" target="_blank" >
-              <i class="fa-brands fa-facebook "></i>
+              <i className="fa-brands fa-facebook "></i>
             </a>
             <a className="footer-mid-l2-social" href="#" target="_blank" >
-            <i class="fa-brands fa-square-instagram"></i>
+            <i className="fa-brands fa-square-instagram"></i>
             </a>
             <a className="footer-mid-l2-social"  href="#" target="_blank" >
-            <i  class="fa-brands fa-twitter"></i>
+            <i  className="fa-brands fa-twitter"></i>
             </a>
           </div>
           <div className="footer-bottom">
