@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  transition: all .2s linear;
+}
+
+.container::-webkit-scrollbar{
+  width:20px;
+}
+
+.container::-webkit-scrollbar-track{
+  background: #000;
+}
+
+.container::-webkit-scrollbar-thumb{
+  background: #fff;
+}
+
+body{
+  background: #000;
+}
+
+
+
+.container .text{
+  color:#fff3;
+  font-size: 8vw;
+  text-transform: capitalize;
+  padding:30px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.container .text1{
+  color:#fff3;
+  font-size: 8vw;
+  text-transform: capitalize;
+  padding:30px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.container .text:hover{
+  
+  
+  color:#fff;
+  position: relative;
+  z-index: 100;
+  text-shadow: 0 5px 10px rgba(0,0,0,.7);
+}
+.container .text1:hover{
+  
+  
+  color:#fff;
+  position: relative;
+  z-index: 100;
+  text-shadow: 0 5px 10px rgba(0,0,0,.7);
+}
+
+
+
+.container .text:hover ~ .hover-img{
+  opacity: 1;
+}
+.container .text1:hover +.hover-img1{
+  display: block;
+  opacity: 1;
+}
+
+.hover-img{
+  display: flex;
+  position: relative;
+  top:0; left:0;
+  opacity: 0;
+  z-index: -1;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  transition: all .2s linear;
+}
+.basket{
+  background:url('https://hellofuture.orange.com/app/uploads/2018/01/Intro-HELLO-FUTURE-1920x1080_v2.gif') no-repeat  ;
+  background-size: cover;
+  display: flex;
+  /* position: relative; */
+  padding:4%;
+}
+.container{
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  padding:4%;
+  text-align:left;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+.img-sec{
+  padding: 30px 30px 20px 20px;
+  color:#000;
+  width: 500px;
+  display:none;
+}
+
+.img1{
+ 
+  z-index: -1;
+  display:none;
+  width: 330px;
+  height: 336px;
+}
+
+

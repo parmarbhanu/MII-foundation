@@ -6,6 +6,7 @@ import Footer from './Universal/Footer';
 // import LandingPage from './Pages/Home/LandingPage';
 // import About from "./Pages/AboutUs/About"
 import Ourpartner from "./Pages/AboutUs/Ourpartner"
+ import Feature from './Features/Feature';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
          {/* <About/> */}
          {/* <Route  path='/about' element={<About/> }/> */}
         {/* </Routes> */}
+        <Feature/>
       <Footer/>
     </div>
   );
