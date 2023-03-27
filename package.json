@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index.js"
-    
-    
+    "start": "nodemon index.js"
   },
   "author": "Softwatecell",
   "license": "ISC",
@@ -16,6 +14,7 @@
     "express": "^4.18.2",
     "path": "^0.12.7",
     "react-bootstrap": "^2.7.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-router-dom": "^6.8.1"
   }
 }
