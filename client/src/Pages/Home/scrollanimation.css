@@ -1,0 +1,86 @@
+
+  .before,
+  .after {
+    height: 50vh;
+    background: lightgrey;
+    padding: 1em;
+  }
+  
+  .scroll {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .scroll__view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  
+  .scroll__overlays,
+  .scroll__hero {
+    flex: 1 0 50%;
+  }
+  @media screen and (max-width: 768px) {
+    .scroll__overlays,
+  .scroll__hero {
+      flex: 1 0 100%;
+    }
+  }
+  
+  .scroll__overlays {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .scroll__content {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: relative;
+  }
+  @media screen and (min-width: 768px) {
+    .scroll__content {
+      position: sticky;
+    }
+  }
+  .scroll__content .scroll__text {
+    background: white;
+    padding: 2em;
+    word-break: break-word;
+  }
+  .scroll__content .scroll__text:before {
+    content: "";
+    width: 100%;
+    height: 50vh;
+    background: red;
+    background: linear-gradient(rgba(255, 255, 255, 0), white);
+    position: absolute;
+    top: 0;
+    transform: translateY(calc(-100% + 1px));
+  }
+  @media screen and (max-width: 768px) {
+    .scroll__content .scroll__text:before {
+      display: none;
+    }
+  }
+  
+  .scroll__hero {
+    position: sticky;
+    z-index: -1;
+  }
+  
+  .scroll__sectionwrapper {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+ 
+  

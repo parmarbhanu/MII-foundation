@@ -1,31 +1,29 @@
 import './App.css';
-// import { Route,Routes } from 'react-router-dom';
- import Footer from './Universal/Footer';
-// import Header from './Universal/Header';
-import Herosection from './Pages/Home/Herosection/Herosection';
-import LandingPage from './Pages/Home/LandingPage';
-import About from "./Pages/AboutUs/About"
-// import Ourpartner from "./Pages/AboutUs/Ourpartner"
-// import Feature from './Feature/Feature';
+import Header from './Universal/Header';
+import Footer from './Universal/Footer';
+import Home from './Pages/Herosection';
+import { Route, Routes } from "react-router-dom";
+import Contact from './Pages/Contact';
+import Article from './Pages/Article';
+import Event from './Pages/Event';
+import Offering from './Pages/Offering';
+import About from './Pages/About';
+
 function App() {
   return (
-    <div className="App">
-      {/* <Header/> */}
-         {/* <Routes> */}
-         {/* <Herosection/>
-         <LandingPage/> */}
-         {/* <Ourpartner/> */}
-         {/* <About/> */}
-        <About/>
-        {/* </Routes> */}
-        {/* <Feature/> */}
-      <Footer/>
+    <div>
+      <Header/>
+      <Routes>
+        <Route exact path='/' element={<Home/> }/>
+        <Route  path='/contact' element={<Contact/> }/>
+        <Route  path='/Offering' element={<Offering/> }/>
+        <Route  path='/Article' element={<Article/> }/>
+        <Route  path='/About' element={<About/> }/>
+        <Route  path='/Event' element={<Event/> }/>
+      </Routes>
+      {/* <Footer/> */}
     </div>
   );
 }
 
 export default App;
-
-
-
-

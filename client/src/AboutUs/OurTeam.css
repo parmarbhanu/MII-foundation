@@ -1,0 +1,16 @@
+
+.team1{
+    background-color: rgb(164, 14, 14);
+    color: rgb(44, 114, 175);
+}
+.our-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.single-person{
+    text-align: center;
+    border: 5px solid gray;
+    margin: 5px;
+    border-radius: 8px;
+}

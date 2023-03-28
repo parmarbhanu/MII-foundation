@@ -1,0 +1,13 @@
+.team-container{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px 20px;
+    padding: 10px 50px;
+}
+
+.single-image-container{
+    border: 2px solid yellow;
+    width: 40%;
+    
+}
