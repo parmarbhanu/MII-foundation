@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Universal/Header';
-import Footer from './Universal/Footer';
+// import Footer from './Universal/Footer';
 import Home from './Pages/Herosection';
 import { Route, Routes } from "react-router-dom";
 import Contact from './Pages/Contact';
