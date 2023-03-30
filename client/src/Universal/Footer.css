@@ -16,7 +16,9 @@
   .column{
       max-width: 30%;
   }
-  
+  .single-cta{
+    display: flex;
+  }
   .single-cta i {
     color: #ff5e14;
     font-size: 30px;
@@ -33,9 +35,12 @@
     font-weight: 600;
     margin-bottom: 2px;
   }
-  .cta-text span {
+  .cta-text span ,.cta-text span a{
     color: #757575;
     font-size: 15px;
+  }
+  .cta-text span a:hover{
+    color: #3B5998;
   }
   .footer-content {
     position: relative;
@@ -166,3 +171,5 @@
     font-size: 14px;
     color: #878787;
   }
+
+  /* add media quires at 612 */

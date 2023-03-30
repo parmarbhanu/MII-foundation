@@ -60,7 +60,7 @@ const Footer = () => {
               <i className="fas fa-map-marker-alt" />
               <div className="cta-text">
                 <h4>Find us</h4>
-                <span>A.B. Road, Pigdamber, Rau, Indore, Madhya Pradesh 453331 · ~88.2 km</span>
+                <span><a href="https://www.bing.com/local?lid=YN4070x11855379077320987291&id=YN4070x11855379077320987291&q=Medi-Caps+Institute+of+Technology+and+Management&name=Medi-Caps+Institute+of+Technology+and+Management&cp=22.620885848999023%7e75.80526733398438&ppois=22.620885848999023_75.80526733398438_Medi-Caps+Institute+of+Technology+and+Management" target={'_blank'}>A.B. Road, Pigdamber, Rau, Indore, Madhya Pradesh 453331 · ~88.2 km</a></span>
               </div>
             </div>
           </div>
@@ -96,13 +96,6 @@ const Footer = () => {
                     alt="logo"
                   />
                 </a>
-              </div>
-              <div className="footer-text">
-                <p>
-                  Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed
-                  do eiusmod tempor incididuntut consec tetur adipisicing
-                  elit,Lorem ipsum dolor sit amet.
-                </p>
               </div>
               <div className="footer-social-icon">
                 <span>Follow us</span>
