@@ -20,7 +20,7 @@ const Herosection = () => {
           <div className="section-1-image">
             <img
               className="hero-section-1-img"
-              src="https://i.imgur.com/zyYhckH.gif"
+              src="https://images.chesscomfiles.com/uploads/game-gifs/90px/light/neo/0/cc/0/0/bUMwS2d2NVFmSCFUbHQ5SWtzOCFlZzk4cHhXT0h5WkpibDNWZmVYSHlySkJsZjZTZndTcmlyN1pyekk5ZG1Cc2pzT0d6R1FHY3VZSWVkWlFta0h6dkt6cmtyR3I,.gif"
               alt=""
             />
           </div>
